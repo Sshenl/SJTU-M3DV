@@ -3,7 +3,7 @@ This is the course assignment of EE369 machine learning 2019 autumn course of Sh
 This is a classification project of pulmonary nodules. We use a deep learning system to complete this project, and the final score on Kaggle is 0.73313.
 # Code Structure
 * [`main.py`](main.py): Compile model, train and predict. Output the predict results to "Submission.csv".
-* [`test.py`](test.py): Get "Submission.csv" file, corresponding to my best score in Kaggle.
+* [`test.py`](test.py): Load weights and get "Submission.csv" file, corresponding to my best score in Kaggle.
 * [`mylib/`](mylib/):
     * [`densenet.py`](mylib/densenet.py): 3D *DenseNet* models
     * [`RocAuc.py`](mylib/RocAuc.py): Roc-Auc evaluation.

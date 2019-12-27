@@ -11,8 +11,9 @@ This is a classification project of pulmonary nodules. We use a deep learning sy
 * [`dataset/`](dataset/):
     * [`train_val/`](dataset/train_val/): Training dataset.
     * [`test/`](dataset/test/): Testing dataset.
-    * [`train_val.scv`](dataset/train_val.scv): Labals of training dataset.
-
+    * [`train_val.csv`](dataset/train_val.csv): Labals of training dataset.
+* [`sampleSubmission.csv`](sampleSubmission.csv): A sample submission file.
+* [`weights`](weights/): Saved model weights.
 # Requirements
 * Python 3 (Anaconda 3 specifically)
 * TensorFlow==1.15.0

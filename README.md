@@ -1,6 +1,6 @@
 # -Medical 3D Voxel Classification-
 This is the course assignment of EE369 machine learning 2019 autumn course of Shanghai Jiaotong University, Medical 3D Voxel Classification(M3DV) Kaggle inclass competition.
-This is a classification project of pulmonary nodules. We use a deep learning system to complete this project, and the final score on Kaggle is 0.73313.
+\nThis is a classification project of pulmonary nodules. We use a deep learning system to complete this project, and the final score on Kaggle is 0.73313.
 # Code Structure
 * [`main.py`](main.py): Compile model, train and predict.
 * [`test.py`](test.py): Get "Submission.csv" file, corresponding to my best score in Kaggle.

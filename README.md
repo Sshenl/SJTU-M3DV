@@ -7,3 +7,8 @@ This is a classification project of pulmonary nodules. We use a deep learning sy
     * [`RocAuc`](mylib/RocAuc.py): Roc-Auc evaluation.
 * [`main.py`](main.py): Compile model, train and predict.
 * [`test.py`](test.py): Get "Submission.csv" file, corresponding to my best score in Kaggle.
+
+# Requirements
+* Python 3 (Anaconda 3 specifically)
+* TensorFlow==1.15.0
+* Keras==2.2.0

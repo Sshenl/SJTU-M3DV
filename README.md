@@ -1,5 +1,5 @@
 # -M3DV-
-This is the course assignment of EE369 machine learning 2019 autumn course of Shanghai Jiaotong University, 3D medical image classification (M3DV) Kaggle inclass competition.
+This is the course assignment of EE369 machine learning 2019 autumn course of Shanghai Jiaotong University, Medical 3D Voxel Classification(M3DV) Kaggle inclass competition.
 This is a classification project of pulmonary nodules. We use a deep learning system to complete this project, and the final score on Kaggle is 0.73313.
 # Code Structure
 * [`main.py`](main.py): Compile model, train and predict.

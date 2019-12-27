@@ -12,7 +12,7 @@ This is a classification project of pulmonary nodules. We use a deep learning sy
     * [`train_val/`](dataset/train_val/): Training dataset.
     * [`test/`](dataset/test/): Testing dataset.
     * [`train_val.csv`](dataset/train_val.csv): Labals of training dataset.
-    * ***Note**: The dataset is not available publicly, so only a demo of training dataset and testing dataset, as well as the label of training dataset are provided here.*
+    * ***Note**: The dataset is not available publicly, so only a demo of training dataset and testing dataset, as well as the label of training dataset demo are provided here.*
 * [`weights`](weights/): Saved model weights.
 * [`sampleSubmission.csv`](sampleSubmission.csv): A sample submission file.
 # Requirements

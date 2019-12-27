@@ -7,7 +7,7 @@ This is a classification project of pulmonary nodules. We use a deep learning sy
 * [`mylib/`](mylib/):
     * [`densenet.py`](mylib/densenet.py): 3D *DenseNet* models
     * [`RocAuc.py`](mylib/RocAuc.py): Roc-Auc evaluation.
-# Other files
+# Other Files
 * [`dataset/`](dataset/):
     * [`train_val/`](dataset/train_val/): Training dataset.
     * [`test/`](dataset/test/): Testing dataset.

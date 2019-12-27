@@ -4,9 +4,14 @@ This is a classification project of pulmonary nodules. We use a deep learning sy
 # Code Structure
 * [`mylib/`](mylib/):
     * [`densenet.py`](mylib/densenet.py): 3D *DenseNet* models
-    * [`RocAuc`](mylib/RocAuc.py): Roc-Auc evaluation.
+    * [`RocAuc.py`](mylib/RocAuc.py): Roc-Auc evaluation.
 * [`main.py`](main.py): Compile model, train and predict.
 * [`test.py`](test.py): Get "Submission.csv" file, corresponding to my best score in Kaggle.
+# Other files
+* [`dataset/`](dataset/):
+    * [`train_val/`](dataset/train_val/): Training dataset.
+    * [`test/`](dataset/test/): Testing dataset.
+    * [`train_val.scv`](dataset/train_val.scv): Labals of training dataset.
 
 # Requirements
 * Python 3 (Anaconda 3 specifically)

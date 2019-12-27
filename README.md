@@ -5,8 +5,8 @@ This is a classification project of pulmonary nodules. We use a deep learning sy
 * [`main.py`](main.py): Compile model, train and predict. Output the predict results to "Submission.csv".
 * [`test.py`](test.py): Load weights and output predict results, corresponding to my best score in Kaggle, to "Submission.csv".
 * [`mylib/`](mylib/):
-    * [`densenet.py`](mylib/densenet.py): 3D *DenseNet* models
-    * [`RocAuc.py`](mylib/RocAuc.py): Roc-Auc evaluation.
+    * [`densenet.py`](mylib/densenet.py): 3D *DenseNet* models. Reference from:https://github.com/duducheng/DenseSharp
+    * [`RocAuc.py`](mylib/RocAuc.py): Roc-Auc evaluation. Reference form: https://blog.csdn.net/qq_16234613/article/details/79437952
 # Other Files
 * [`dataset/`](dataset/):
     * [`train_val/`](dataset/train_val/): Training dataset.
